@@ -19,4 +19,9 @@
 Training pipeline
 ![image](https://user-images.githubusercontent.com/59472284/222877287-271779c5-1136-4764-9f5b-bf90ddd016af.png)
 
+**Streamlit app**
+![image](https://user-images.githubusercontent.com/59472284/222886472-ab261ad7-f960-454e-8473-6690ffe2f29d.png)
+
+![image](https://user-images.githubusercontent.com/59472284/222886787-4df8b914-21cd-4e01-a6af-74ad53f83bc3.png)
+
 
