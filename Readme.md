@@ -2,6 +2,37 @@
 
 ## promblem statment : In this recruiting competition, job-seekers are provided with historical sales data for 45 Walmart stores located in different regions. Each store contains many departments, and participants must project the sales for each department in each store. To add to the challenge, selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact.
 
+## Dataset Description
+stores.csv
+
+This file contains anonymized information about the 45 stores, indicating the type and size of store.
+
+train.csv
+
+This is the historical training data, which covers to 2010-02-05 to 2012-11-01. Within this file you will find the following fields:
+
+* Store - the store number
+* Dept - the department number
+* Date - the week
+* Weekly_Sales -  sales for the given department in the given store
+* IsHoliday - whether the week is a special holiday week
+test.csv
+
+This file is identical to train.csv, except we have withheld the weekly sales. You must predict the sales for each triplet of store, department, and date in this file.
+
+features.csv
+
+This file contains additional data related to the store, department, and regional activity for the given dates. It contains the following fields:
+
+* Store - the store number
+* Date - the week
+* Temperature - average temperature in the region
+* Fuel_Price - cost of fuel in the region
+* MarkDown1-5 - anonymized data related to promotional markdowns that Walmart is running. MarkDown data is only available after Nov 2011, and is not available for all stores all the time. Any missing value is marked with an NA.
+* CPI - the consumer price index
+* Unemployment - the unemployment rate
+* IsHoliday - whether the week is a special holiday week
+
 **train and test data after merging**
 ![image](https://user-images.githubusercontent.com/59472284/222876954-c4dd5b5b-9ece-4c2b-9c27-5565f99fb688.png)
 ![image](https://user-images.githubusercontent.com/59472284/222877026-e139a848-7c70-4287-aad3-b86ec235b168.png)
