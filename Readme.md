@@ -16,3 +16,7 @@
 **4.weekly sales also depend on week of the year holidays weeks are good for sales**\
 **5.final submission is with RandomForest model with tunned hyperparameters**
 
+Training pipeline
+![image](https://user-images.githubusercontent.com/59472284/222877287-271779c5-1136-4764-9f5b-bf90ddd016af.png)
+
+
