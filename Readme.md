@@ -4,6 +4,7 @@
 
 ## Dataset Description
 Data Link: https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting/data
+
 stores.csv
 
 This file contains anonymized information about the 45 stores, indicating the type and size of store.
